@@ -1,4 +1,4 @@
-import helpers
+from Gestor import helpers
 import database as db
 
 def iniciar():
