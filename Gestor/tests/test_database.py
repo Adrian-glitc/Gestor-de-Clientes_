@@ -1,5 +1,5 @@
 import unittest
-import database as db
+from database import database as db
 import sqlite3
 import os
 from config import DATABASE_PATH
