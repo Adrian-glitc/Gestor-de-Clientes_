@@ -1,5 +1,7 @@
 import sys
 from Gestor.database import database as db
+from Gestor.config import DATABASE_PATH
+import sqlite3
 from Gestor.menu import iniciar
 from Gestor.ui import MainWindow
 
