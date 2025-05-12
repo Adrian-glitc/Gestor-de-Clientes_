@@ -1,8 +1,8 @@
 import sys
-from Gestor.database import database as db
-from Gestor.config import DATABASE_PATH
+from Gestor import database as db
+from config import DATABASE_PATH
 import sqlite3
-from menu import iniciar
+from Gestor.menu import iniciar
 from Gestor.ui import MainWindow
 
 if __name__ == "__main__":
