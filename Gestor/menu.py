@@ -1,5 +1,5 @@
 from Gestor import helpers
-import database as db
+from Gestor import database as db
 
 def iniciar():
     db.Clientes.inicializar_db()
@@ -85,3 +85,5 @@ def iniciar():
             break
         
         input("\nPresiona ENTER para continuar...")
+        
+        
