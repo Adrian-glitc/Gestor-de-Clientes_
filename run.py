@@ -1,4 +1,5 @@
 import sys
+from Gestor.database import database as db
 from Gestor.menu import iniciar
 from Gestor.ui import MainWindow
 
